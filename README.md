@@ -5,13 +5,22 @@ A Node.js/Express application for the BFHL (Bajaj FinServ Health) challenge.
 ## Project Structure
 
 ```
-src/
-├── app.js              # Express app configuration
-├── server.js           # Server entry point
-├── controllers/        # Request handlers
-├── middleware/         # Custom middleware
-├── utils/              # Utility functions
-└── services/           # Business logic services
+bfhl-challenge/
+├── src/
+│   ├── app.js
+│   ├── server.js
+│   ├── controllers/
+│   │   └── bfhlController.js
+│   ├── middleware/
+│   │   └── validation.js
+│   ├── utils/
+│   │   └── calculations.js
+│   └── services/
+│       └── aiService.js
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
 ```
 
 ## Installation
@@ -59,3 +68,4 @@ ROLL_NUMBER=your_roll_number
 ## License
 
 MIT
+
