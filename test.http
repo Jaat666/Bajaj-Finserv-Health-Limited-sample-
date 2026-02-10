@@ -1,0 +1,42 @@
+### Health Check
+GET http://localhost:3000/health
+
+### Fibonacci
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+    "fibonacci": 7
+}
+
+### Prime Numbers
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+    "prime": [2, 4, 7, 9, 11]
+}
+
+### LCM
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+    "lcm": [12, 18, 24]
+}
+
+### HCF
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+    "hcf": [24, 36, 60]
+}
+
+### AI Question
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+    "AI": "What is the capital city of Maharashtra?"
+}
